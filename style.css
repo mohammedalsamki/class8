@@ -1,0 +1,42 @@
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/* this is an a tag style */
+
+/* a{
+    color: brown;
+}
+a:link{
+    background-color: yellow;
+}
+a:visited{
+    background-color: cyan;
+}
+a:hover{
+    color: blue;
+    background-color: lightgreen;
+}
+a:active{
+    color: yellow;
+    background-color: red;
+} */
+
+a:link,a:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover,a:active{
+    background-color: red;
+}
+
