@@ -1,11 +1,27 @@
-function myFunction() {
-    let x = 50;
-    let y = 6;
-
-    document.getElementById("demo").innerHTML = x + y;
-}
 var a = 10;
-// how to declare a variable in javascript
+
+let m = false;
+console.log(typeof (m))
+
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+var obj = {
+    name: 'ahmad',
+    age: 20,
+    address: 'dhaka',
+    array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+
+    string: {
+        name: 'ziad',
+        age: 25,
+        address: 'dhaka',
+    }
+}
+console.log(obj);
+console.log(obj.string.name);
+
+console.log(arr.length);
+// how to declare m,a variable in javascript
 // var, let, const
 // what is var??
 
@@ -13,7 +29,6 @@ var a = 10;
 
 
 var c = ' Hello World';
-console.log(a);
 // console.log('hellow i am js from contact page')
 
 // what is let ??
@@ -23,14 +38,14 @@ console.log(a);
 
 let b = 20;
 
-console.log(b);
+// console.log(b);
 
 // what is const ??
 
 // const is a keyword which is used to declare a variable in javascript
 
 const d = 30;
-console.log(d);
+// console.log(d);
 
 // what is the difference between var, let and const ??
 
@@ -48,21 +63,21 @@ console.log(d);
 // string is a data type which is used to store a string value
 
 var test = 'hellow world';
-console.log(test);
+// console.log(test);
 
 // what is the number ??
 
 // number is a data type which is used to store a number value
 
 var test1 = 10;
-console.log(test1);
+// console.log(test1);
 
 // what is the boolean ??
 
 // boolean is a data type which is used to store a true or false value
 
 var test2 = false;
-console.log(test2);
+// console.log(test2);
 
 // what is the object ??
 
@@ -74,4 +89,21 @@ var test3 = {
     age: 20,
     address: 'dhaka'
 }
-console.log(test3);
+// console.log(test3);
+
+// what is operations in js
+
+// + Addition
+
+var num1 = 5;
+var num2 = 10;
+
+
+var total = num1 - num2;
+total--;
+console.log(total++);
+
+var n = 5;
+
+n = 'mamun';
+console.log(n);
