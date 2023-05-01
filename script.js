@@ -107,3 +107,90 @@ var n = 5;
 
 n = 'mamun';
 console.log(n);
+
+// if statement  in js
+var number1 = '15';
+var number2 = '15';
+
+if (number1 > number2) {
+    // code
+    console.log('number1 is greater than number2 ')
+
+} else if (number1 === number2) {
+    console.log('number2 is equal  number1')
+
+} else if (number1 < number2) {
+    console.log('number2 is greater than number1')
+}
+// deferent between == and ===
+
+// == only check the value
+
+// === check the value and data type
+
+// switch statement in js and deference between if statement
+
+// coffee shop :> 1. coffee 2. tea 3. juice 4. water
+
+var choice = 7;
+
+// if (choice >= 1 && choice <= 4) {
+//     if (choice === 1) {
+//         console.log('coffee')
+
+//     } else if (choice === 2) {
+//         console.log('tea')
+
+//     } else if (choice === 3) {
+//         console.log('juice')
+
+//     } else if (choice === 4) {
+//         console.log('water')
+
+//     } 
+    
+// } else {
+//     console.log('please select a valid number between 1 to 4')
+// }
+
+switch (choice) {
+    case 1:
+        console.log('coffee')
+        break;
+    case 2:
+        console.log('tea')
+        break;
+    case 3:
+        console.log('juice')
+        break;
+    case 4:
+        console.log('water')
+        break;
+    default:
+        console.log('please select a valid number between 1 to 4')
+        break;
+}
+
+
+
+// deferent between if statement and switch statement
+
+// if statement is used to check a condition
+
+// switch statement is used to check a condition
+
+// if statement can have a limitation  but switch statement can't have a limitation
+
+
+// for loop in js
+
+
+for (var i = 0; i <= arr.length; i++){
+    console.log(i)
+}
+
+// i=0 >> 0<=10 >> True >> console.log(i) >> 0 >> i++ >> i = 0+1 >> i = 1
+// i=1 >> 1<=10 >> True >> console.log(i) >> 1 >> i++ >> i = 1+1 >> i = 2
+// i=2 >> 2<=10 >> True >> console.log(i) >> 2 >> i++ >> i = 2+1 >> i = 3
+// i=3 >> 3<=10 >> True >> console.log(i) >> 3 >> i++ >> i = 3+1 >> i = 4
+// i=4 >> 4<=10 >> True >> console.log(i) >> 4 >> i++ >> i = 4+1 >> i = 5
