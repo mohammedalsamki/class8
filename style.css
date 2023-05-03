@@ -198,3 +198,18 @@ textarea{
 
     padding: 10px;
 }
+
+/* col style */
+
+.col{
+    background-color: red;
+    padding: 100px 50px;
+    border: 1px solid black;
+    color: beige;
+}
+.row{
+    background-color: blue;
+    /* padding: 200px; */
+    color: beige;
+
+}
