@@ -187,6 +187,9 @@ switch (choice) {
 
 for (var i = 0; i <= arr.length; i++){
     console.log(i)
+
+    //if stat
+    // switch stat
 }
 
 // i=0 >> 0<=10 >> True >> console.log(i) >> 0 >> i++ >> i = 0+1 >> i = 1
