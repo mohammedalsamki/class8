@@ -185,15 +185,71 @@ switch (choice) {
 // for loop in js
 
 
-for (var i = 0; i <= arr.length; i++){
-    console.log(i)
+// for (var i = 0; i <= arr.length; i++){
+//     console.log(i)
 
-    //if stat
-    // switch stat
-}
+//     //if stat
+//     // switch stat
+// }
 
 // i=0 >> 0<=10 >> True >> console.log(i) >> 0 >> i++ >> i = 0+1 >> i = 1
 // i=1 >> 1<=10 >> True >> console.log(i) >> 1 >> i++ >> i = 1+1 >> i = 2
 // i=2 >> 2<=10 >> True >> console.log(i) >> 2 >> i++ >> i = 2+1 >> i = 3
 // i=3 >> 3<=10 >> True >> console.log(i) >> 3 >> i++ >> i = 3+1 >> i = 4
 // i=4 >> 4<=10 >> True >> console.log(i) >> 4 >> i++ >> i = 4+1 >> i = 5
+
+
+
+// var firstname = 'mohammad';
+// var lastname = '';
+// var role = '';
+
+function name(firstname, lastname, role) {
+    var result = firstname + ' ' + lastname + ' ' + role;
+
+    return result;
+}
+
+console.log(name('mohammad', 'alsamaki', 'fullstack'));
+console.log(name('ali', 'msaada', 'fullstack'));
+onclick = "myFunction()"
+
+function addPtag() {
+
+    return newPtag;
+    
+}
+var number1 = 15;
+var number2 = 10;
+function myFunction() {
+    //     var newPtag = document.createElement("p");
+    //     var text = document.createTextNode("This is a new paragraph.");
+    //     newPtag.appendChild(text);
+    //   return document.getElementById("demo1").innerHTML = newPtag;
+
+    if (number1 > number2) {
+        // code
+        console.log('number1 is greater than number2 ' + number1)
+         alert( 'number1 is greater than number2 ' + number1);
+    
+    }
+    else if (number1 === number2) {
+
+        console.log('number2 is equal  number1 ' + number2)
+        
+         alert('number2 is equal  number1 ' + number2);
+        
+    }
+
+    else if (number1 < number2) {
+        console.log('number2 is greater than number1 ' + number2)
+         alert('number2 is greater than number1 ' + number2);
+
+    }
+   
+    
+}
+    
+// document.getElementById("demo").innerHTML = 'hellow world';
+
+// document.getElementById("image").src = "home.png";
