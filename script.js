@@ -252,4 +252,4 @@ function myFunction() {
     
 // document.getElementById("demo").innerHTML = 'hellow world';
 
-// document.getElementById("image").src = "home.png";
+document.getElementById("image").src = "home.png";
